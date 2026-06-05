@@ -1,6 +1,6 @@
 {
   "public": true,
   "rewrites": [
-    { "source": "/(.*)", "destination": "/re-wholesaler-ai/$1" }
+    { "source": "/(.*)", "destination": "/$1" }
   ]
 }
