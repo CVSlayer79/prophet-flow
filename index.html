@@ -5,43 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Real Estate Lead Machine | Silver Spring, MD</title>
     <style>
-        body { font-family: sans-serif; line-height: 1.6; text-align: center; padding: 50px; background-color: #f4f4f9; }
-        .container { max-width: 600px; margin: auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
-        h1 { color: #333; }
-        p { color: #666; font-size: 1.1em; }
-        .price { font-size: 2em; font-weight: bold; color: #2ecc71; margin: 20px 0; }
-        .btn { display: inline-block; background: #3498db; color: white; padding: 15px 30px; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 1.2em; }
-        .btn:hover { background: #2980b9; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; text-align: center; padding: 20px; background-color: #f0f2f5; color: #333; }
+        .container { max-width: 800px; margin: auto; background: white; padding: 40px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+        h1 { color: #2c3e50; font-size: 2.5em; margin-bottom: 10px; }
+        .tagline { font-size: 1.2em; color: #7f8c8d; margin-bottom: 30px; }
+        .price { font-size: 3em; font-weight: bold; color: #27ae60; margin: 20px 0; }
+        .btn { display: inline-block; background: #007bff; color: white; padding: 20px 40px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 1.3em; transition: 0.3s; }
+        .btn:hover { background: #0056b3; transform: scale(1.05); }
+        
+        .section-title { margin-top: 50px; font-size: 1.5em; border-bottom: 2px solid #007bff; display: inline-block; padding-bottom: 5px; }
+        
+        .sample-lead { background: #fff9c4; border: 2px dashed #f1c40f; padding: 20px; border-radius: 10px; text-align: left; margin: 20px 0; }
+        .sample-tag { background: #f1c40f; color: #000; padding: 5px 10px; border-radius: 5px; font-weight: bold; font-size: 0.8em; }
+
+        .steps { display: flex; justify-content: space-around; margin-top: 30px; text-align: left; gap: 20px; }
+        .step { flex: 1; background: #f8f9fa; padding: 15px; border-radius: 10px; }
+        .step-num { color: #007bff; font-weight: bold; font-size: 1.5em; }
+
         .cancel-link { display: block; margin-top: 40px; color: #999; text-decoration: none; font-size: 0.9em; }
-        .cancel-link:hover { color: #e74c3c; }
-        .features { text-align: left; margin: 30px 0; }
-        .features li { margin-bottom: 10px; }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>🚀 AI Real Estate Lead Machine</h1>
-        <p>Stop hunting for deals. Our AI scans Silver Spring, MD every hour for distressed properties and motivated sellers.</p>
+        <h1>🚀 Silver Spring AI Deal Finder</h1>
+        <p class="tagline">The only AI-powered lead machine built for Maryland Wholesalers.</p>
         
-        <ul class="features">
-            <li>✅ <b>AI Distress Scanning:</b> We find sellers who MUST sell fast.</li>
-            <li>✅ <b>Calculated Profits:</b> Every lead includes the Max Allowable Offer.</li>
-            <li>✅ <b>Daily Delivery:</b> New hot leads sent to your inbox every morning.</li>
-        </ul>
+        <div class="steps">
+            <div class="step">
+                <span class="step-num">1.</span>
+                <p><b>Scan</b><br>AI scans Zillow, Craigslist, and local data 24/7.</p>
+            </div>
+            <div class="step">
+                <span class="step-num">2.</span>
+                <p><b>Analyze</b><br>AI calculates the MAO and seller motivation.</p>
+            </div>
+            <div class="step">
+                <span class="step-num">3.</span>
+                <p><b>Profit</b><br>You get the list every morning. Just call and close.</p>
+            </div>
+        </div>
 
-        <p>Join 20+ investors getting off-market deals before they hit Zillow.</p>
-        
+        <h2 class="section-title">What you get every morning:</h2>
+        <div class="sample-lead">
+            <span class="sample-tag">SAMPLE LEAD</span>
+            <p>📍 <b>Address:</b> 123 Main St, Silver Spring, MD</p>
+            <p>👤 <b>Owner:</b> Motivated Seller (Moving out of state)</p>
+            <p>📉 <b>AI Analysis:</b> Highly Distressed (Needs repairs)</p>
+            <p>💰 <b>Max Allowable Offer:</b> $185,000</p>
+            <p>✨ <b>Potential Profit:</b> $15,000+ assignment fee</p>
+        </div>
+
         <div class="price">$99 / month</div>
         
-        <!-- YOU WILL REPLACE THE '#' BELOW WITH YOUR STRIPE PAYMENT LINK -->
-        <a href="#" class="btn">Get Access Now</a>
+        <a href="https://buy.stripe.com/bJefZg9fc0aX3fMd6EafS00" class="btn">Get Today's Deals Now</a>
         
-        <p style="font-size: 0.8em; margin-top: 20px; color: #999;">No contract. Cancel anytime.</p>
+        <p style="margin-top: 20px;">Join 50+ local investors winning with AI.</p>
 
-        <hr style="margin-top: 40px; border: 0; border-top: 1px solid #eee;">
-        
-        <!-- CUSTOMER PORTAL LINK -->
-        <a href="#" class="cancel-link">Manage or Cancel Membership</a>
+        <hr style="margin-top: 50px; border: 0; border-top: 1px solid #eee;">
+        <a href="https://billing.stripe.com/p/login/bJefZg9fc0aX3fMd6EafS00" class="cancel-link">Manage or Cancel Subscription</a>
     </div>
 </body>
 </html>
